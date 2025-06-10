@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/result/result",
+    "pages/settings/settings",
+    "pages/wishes/wishes"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#003366",
+    "navigationBarTitleText": "倒数人生",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {    "custom": true,    "color": "#b3ccff",    "selectedColor": "#ffffff",    "backgroundColor": "#003366",    "borderStyle": "white",    "position": "bottom",    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "🏠 首页"
+      },
+      {
+        "pagePath": "pages/wishes/wishes",
+        "text": "💫 愿望"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "⚙️ 设置"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
